@@ -27,10 +27,8 @@ a {
   font-size: 4vh;
   text-decoration: none;
   color: white;
-  padding: 10px 16px;
+  padding: 10px 30px;
   border: 2px solid white;
-  margin-top: 15vh;
-
 }
 
 a:hover {
@@ -41,7 +39,58 @@ a:hover {
 
 p {
   width: 600px;
-  color: #111;
+  color: #18121B;
   margin: 0 auto 20px;
+  margin-bottom: 50px;
   font-size: 5vh;
+}
+
+.author {
+  text-align: right;
+  font-style: italic;
+}
+
+@media (max-width: 950px) {
+  p {
+    width: auto;
+    margin: 0 30px 10px 30px;
+  }
+}
+
+footer {
+	background-color: #18121B;
+	padding: 10px 0;
+  text-align: center;
+}
+
+footer .heart {
+	color: #fff;
+	float: center;
+	font-size: 3vh;
+}
+
+
+.love {
+    display: inline-block;
+    position: relative;
+    top: .2em;
+    font-size: 1.4em;
+    color: #e74c3c;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-animation: love .5s infinite linear alternate-reverse;
+    -moz-animation: love .5s infinite linear alternate-reverse;
+    animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+    to {-webkit-transform: scale(1.2);}
+}
+
+@-moz-keyframes love {
+    to {-moz-transform: scale(1.2);}
+}
+@keyframes love {
+    to {transform: scale(1.2);}
 }
