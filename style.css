@@ -1,0 +1,47 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background: url("bg.jpg");
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 12vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15vh;
+}
+
+a {
+  font-size: 4vh;
+  text-decoration: none;
+  color: white;
+  padding: 10px 16px;
+  border: 2px solid white;
+  margin-top: 15vh;
+
+}
+
+a:hover {
+  color: black;
+  background: white;
+  font-weight: 200;
+}
+
+p {
+  width: 600px;
+  color: #111;
+  margin: 0 auto 20px;
+  font-size: 5vh;
+}
